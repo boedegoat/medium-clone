@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wrapper {
+  @apply mx-auto max-w-7xl;
+}
+
+.small-wrapper {
+  @apply mx-auto max-w-3xl;
+}
+
+.tiny-wrapper {
+  @apply mx-auto max-w-2xl;
+}
